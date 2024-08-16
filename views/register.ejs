@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" type="text/css" href="/css/register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<!--/<form action="/register" method="POST">
+  <div>
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required>
+  </div>
+  <div>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+  </div>
+  <div>
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" required>
+  </div>
+  <button type="submit">Register</button>
+</form>
+<a href="/login">Login</a>\-->
+<!--/------------------------------------------------------------\-->
+
+<body>
+  <div class="container">
+    <div class="login_container">
+      <form action="/register" method="POST">
+        <h1 class="login_title">Register</h1>
+                
+        <!--username input-->
+        <div class="div-input" id="username">
+          <input type="text" placeholder="username" id="username_input" name="username" required>
+        </div>
+            
+        <!--password input-->
+        <div class="div-input" id="passwrd">
+          <input placeholder="password" id="password_input" type="password" name="password">
+          <!--visibility-->
+          <i class="fa-solid fa-eye-slash" id="show-password" onClick="changeIcon(this)"></i> 
+        </div>
+        <!--login-->
+        <button type="submit" id="btn_register" >Register</button><!--/onclick="openMenu()"\-->
+
+        <!--Anchor_tag-->     
+        <div id="loginLink">
+          <a id='anchor_tag' href="/login">Login</a>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="/js/register.js"></script>
+</body>
+</html>

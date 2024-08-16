@@ -1,0 +1,46 @@
+[
+    {
+        "image": "./img/clubs.png",
+        "name": "clubs"
+    },
+    
+    {
+        "image": "./img/diamond.png",
+        "name": "diamond"
+    },
+
+    {
+        "image": "./img/hearts.png",
+        "name": "hearts"
+    },
+
+    {
+        "image": "./img/king-of-hearts.png",
+        "name": "king of hearts"
+    },
+
+    {
+        "image": "./img/poker-cards.png",
+        "name": "poker cards"
+    },
+
+    {
+        "image": "./img/poker-chips.png",
+        "name": "poker chips"
+    },
+
+    {
+        "image": "./img/poker.png",
+        "name": "poker"
+    },
+
+    {
+        "image": "./img/queen-of-hearts.png",
+        "name": "queen of hearts"
+    },
+
+    {
+        "image": "./img/spade.png",
+        "name": "spades"
+    }
+]

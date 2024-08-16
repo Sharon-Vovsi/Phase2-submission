@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>login</title>
+  <link rel="stylesheet" type="text/css" href="/css/login.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<!--/---------------------------------------------\-->
+
+<body>
+    <div class="container">
+        <div class="login_container">
+            <h1 class="login_title">Login</h1>
+            
+            <form action="/login" method="POST" id="login-form">
+              <!--username input-->
+              <div class="div-input" id="username">
+                <input type="text" placeholder="username" id="username_input" name="username" required>
+              </div>
+            
+              <!--password input-->
+              <div class="div-input" id="password">
+                <input placeholder="password" id="password_input" 
+                type="password" name="password" required>
+                <!--visibility-->
+                <i class="fa-solid fa-eye-slash" id="show-password" onClick="changeIcon(this)"></i>  
+              </div>
+                <div id="err_message">
+                  <% if (messages.error) { %>
+                    <%= messages.error %>
+                  <% } %>
+                  <br>
+                </div>
+                
+                  
+                <!--login-->
+                <button type="submit" id="btn_login" >login</button><!--/onclick="openMenu()"\-->
+                
+                <div id="registerLink">
+                  <a id='anchor_tag' href="/register">Register</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="/js/login.js"></script>
+</body>
+</html>

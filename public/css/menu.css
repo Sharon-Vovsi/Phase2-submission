@@ -1,0 +1,77 @@
+body {
+    /*min-height: 100vh;
+    min-width: 100vw;*/
+    background: rgb(2, 0, 36);
+    background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%,
+     rgba(0,212,255,1) 100%);
+    color: white;
+}
+/*---------------------------------------------------------------------------*/
+/*memory Cards title*/
+h1 {
+    /*text-align: center;*/
+    font-weight: 1000;
+    font-size: 50px;
+    /*border: 2px solid rgb(218, 12, 236);*/
+    width:330px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+/*container*/
+.manu-container {
+    /*border: 2px solid rgb(218, 12, 236);*/
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
+/*play button*/
+.btn-play {
+    margin-left: 45%;
+    font-size: 30px;
+    border-radius: 10px;
+    border-color: red;
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
+.btn-play:hover {
+    background-color: yellow;
+}
+
+/*---------------------------------------------------------------------------*/
+/*login button*/
+#login-btn {
+    font-size: 20px;
+    margin-left: 49%;
+    margin-top: 80px;
+    border-radius: 20px;
+    border-color: purple;
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
+#login-btn:hover {
+    background-color: yellow;
+}
+
+
+/*sign up button*/
+#btn_signUp {
+    font-size: 20px;
+    margin-left: 48.5%;
+    margin-top: 80px;
+    border-radius: 20px;
+    border-color: purple;
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
+#btn_signUp:hover {
+    background-color: yellow;
+}
+/*---------------------------------------------------------------------------*/
